@@ -173,6 +173,7 @@
   .tag-rpa { background: rgba(79,142,247,0.12); color: var(--accent2); border: 1px solid rgba(79,142,247,0.3); }
   .tag-plm { background: rgba(247,201,79,0.12); color: var(--accent3); border: 1px solid rgba(247,201,79,0.3); }
   .tag-lean { background: rgba(220,100,100,0.12); color: #f08080; border: 1px solid rgba(220,100,100,0.3); }
+  .tag-agentic { background: rgba(192,132,252,0.12); color: #c084fc; border: 1px solid rgba(192,132,252,0.3); }
   .project-name { font-family: 'Syne', sans-serif; font-size: 1.3rem; font-weight: 700; margin-bottom: 0.75rem; }
   .project-desc { font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 1rem; }
   .kpi-row { display: flex; gap: 20px; flex-wrap: wrap; }
@@ -255,6 +256,7 @@
   <div class="nav-links">
     <a href="#impact">Impact</a>
     <a href="#projects">Projects</a>
+    <a href="#agentic-ai">Agentic AI</a>
     <a href="#skills">Skills</a>
     <a href="#experience">Experience</a>
     <a href="#contact">Contact</a>
@@ -266,9 +268,9 @@
   <div class="hero-bg"></div>
   <div class="hero-grid"></div>
   <div class="hero-inner">
-    <div class="hero-badge">Program Manager · AI/LLM · Digital Transformation</div>
+    <div class="hero-badge">Program Manager · Agentic AI · Generative AI · Digital Transformation</div>
     <h1 class="hero-name">Antony Francis<br><span>Mathew</span></h1>
-    <p class="hero-title">Program Manager — AI/LLM | Generative AI | Digital Transformation</p>
+    <p class="hero-title">Program Manager — Agentic AI | Generative AI | Digital Transformation</p>
     <div class="hero-certs">
       <span class="cert-tag">PMP® 2025</span>
       <span class="cert-tag">CSPO® 2026</span>
@@ -277,7 +279,7 @@
       <span class="cert-tag">McKinsey Academy</span>
     </div>
     <p style="font-size:15px; color:var(--muted); max-width:620px; line-height:1.8;">
-      17+ years delivering enterprise-scale AI automation, digital transformation, and product lifecycle programs across manufacturing, automotive, healthcare, and electronics. Turning complex AI opportunities into measurable business outcomes.
+      17+ years delivering enterprise-scale AI automation, digital transformation, and product lifecycle programs across manufacturing, automotive, healthcare, and electronics — now extended into self-built agentic AI workflows using n8n and GPT-4o. Turning complex AI opportunities into measurable business outcomes.
     </p>
     <div class="hero-stats">
       <div class="hero-stat">
@@ -329,8 +331,8 @@
       <div class="metric-label">Lead-time reduction via demand-flow lean model redesign</div>
     </div>
     <div class="metric-card">
-      <div class="metric-value">5<span class="metric-unit">+</span></div>
-      <div class="metric-label">AI/LLM use cases deployed end-to-end from ideation through governance & adoption</div>
+      <div class="metric-value">9<span class="metric-unit">+</span></div>
+      <div class="metric-label">AI/LLM & agentic AI use cases deployed end-to-end — from enterprise programs through self-built n8n automation agents</div>
     </div>
   </div>
 
@@ -361,7 +363,7 @@
     <div class="chart-card">
       <div class="chart-title">Program Delivery Domains</div>
       <div style="position:relative; height:220px;">
-        <canvas id="c3" role="img" aria-label="Doughnut chart of work distribution across domains">AI/LLM 30%, Digital Transformation 25%, PLM/NPI 20%, Automation/RPA 15%, Lean/Ops 10%.</canvas>
+        <canvas id="c3" role="img" aria-label="Doughnut chart of work distribution across domains">AI/LLM & Agentic AI 35%, Digital Transformation 20%, PLM/NPI 20%, Automation/RPA 15%, Lean/Ops 10%.</canvas>
       </div>
     </div>
 
@@ -496,6 +498,133 @@
 
 <div class="divider"></div>
 
+<!-- AGENTIC AI PROJECTS -->
+<section id="agentic-ai">
+  <div class="section-label">Recent Builds · 2026</div>
+  <h2 class="section-title">Agentic AI Automation Projects</h2>
+  <p style="font-size:14px; color:var(--muted); max-width:720px; margin-bottom:2rem; margin-top:-1.5rem;">
+    Self-architected, end-to-end agentic AI workflows — designed, built, and shipped solo using n8n orchestration and GPT-4o/4o-mini, applying the same program-management discipline used on enterprise initiatives to compress hours of manual work into seconds.
+  </p>
+
+  <!-- Agentic Project 1 -->
+  <div class="project-card">
+    <div>
+      <span class="project-tag tag-agentic">Agentic AI · PLM</span>
+      <div class="project-name">PLM Change Management AI Agent</div>
+      <div class="project-desc">
+        Autonomous agentic workflow that analyses BOM change impact across multi-level product assemblies in real time — identifying affected sub-assemblies, at-risk work orders, cost exposure, and downstream ERP/MES risk. Generates complete ECO/ECN documentation automatically, demonstrating end-to-end PLM-to-ERP change propagation.
+      </div>
+      <div class="kpi-row">
+        <div class="kpi-item"><div class="kpi-val">45 sec</div><div class="kpi-lbl">ECO/ECN generation</div></div>
+        <div class="kpi-item"><div class="kpi-val">99.9%</div><div class="kpi-lbl">Cycle-time reduction</div></div>
+        <div class="kpi-item"><div class="kpi-val">Real-time</div><div class="kpi-lbl">BOM impact analysis</div></div>
+      </div>
+      <div class="tech-chips">
+        <span class="chip">n8n</span><span class="chip">GPT-4o</span><span class="chip">Google Sheets</span><span class="chip">REST APIs</span><span class="chip">PLM–ERP Integration</span>
+      </div>
+    </div>
+    <div>
+      <div style="position:relative; height:180px;">
+        <canvas id="p5" role="img" aria-label="Gauge showing 99.9% reduction in ECO preparation cycle time"></canvas>
+      </div>
+      <div style="margin-top:1rem; background:var(--surface2); border-radius:8px; padding:1rem; font-size:13px; color:var(--muted); line-height:1.7;">
+        <strong style="color:var(--text);">Before → After:</strong> ECO/ECN prep cycle cut from 3 days of manual cross-checking to 45 seconds of autonomous agent processing.
+      </div>
+    </div>
+  </div>
+
+  <!-- Agentic Project 2 -->
+  <div class="project-card">
+    <div>
+      <span class="project-tag tag-agentic">Agentic AI · Reporting</span>
+      <div class="project-name">AI Sprint Health Monitor</div>
+      <div class="project-desc">
+        Fully autonomous programme reporting agent that runs every Monday at 9:00 AM with zero human input — reading live sprint stories and the RAID log from Google Sheets, calculating velocity and RAG status, and distributing colour-coded executive health reports straight to leadership inboxes.
+      </div>
+      <div class="kpi-row">
+        <div class="kpi-item"><div class="kpi-val">2 hrs</div><div class="kpi-lbl">Weekly effort saved</div></div>
+        <div class="kpi-item"><div class="kpi-val">&lt;$0.01</div><div class="kpi-lbl">Cost per report</div></div>
+        <div class="kpi-item"><div class="kpi-val">Zero</div><div class="kpi-lbl">Manual touchpoints</div></div>
+      </div>
+      <div class="tech-chips">
+        <span class="chip">n8n</span><span class="chip">GPT-4o-mini</span><span class="chip">Gmail</span><span class="chip">Google Sheets</span><span class="chip">Scheduled Automation</span>
+      </div>
+    </div>
+    <div>
+      <div style="background:var(--surface2); border-radius:8px; padding:1.25rem;">
+        <div style="font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:10px;">Autonomous Pipeline</div>
+        <ul class="tl-points" style="display:flex; flex-direction:column; gap:8px;">
+          <li>Reads live sprint stories & RAID log every Monday, 09:00</li>
+          <li>Calculates velocity and RAG status automatically</li>
+          <li>Generates colour-coded executive health report</li>
+          <li>Distributes to leadership — no human review needed</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Agentic Project 3 -->
+  <div class="project-card">
+    <div>
+      <span class="project-tag tag-agentic">Agentic AI · NLP</span>
+      <div class="project-name">AI RAID Log Agent</div>
+      <div class="project-desc">
+        Chat-based AI agent that accepts plain-English risk descriptions and auto-classifies each entry as a Risk, Assumption, Issue, or Dependency — extracting title, priority, and owner from unstructured natural language and logging it directly into the programme RAID register for instant, structured risk visibility.
+      </div>
+      <div class="kpi-row">
+        <div class="kpi-item"><div class="kpi-val">&lt;30 sec</div><div class="kpi-lbl">Entry time (was 5 min)</div></div>
+        <div class="kpi-item"><div class="kpi-val">Auto</div><div class="kpi-lbl">Risk classification</div></div>
+        <div class="kpi-item"><div class="kpi-val">Real-time</div><div class="kpi-lbl">Risk visibility</div></div>
+      </div>
+      <div class="tech-chips">
+        <span class="chip">n8n</span><span class="chip">GPT-4o-mini</span><span class="chip">Google Sheets</span><span class="chip">NLP Classification</span>
+      </div>
+    </div>
+    <div>
+      <div style="position:relative; height:180px;">
+        <canvas id="p6" role="img" aria-label="Before and after comparison of RAID log entry time"></canvas>
+      </div>
+      <div style="display:flex; gap:16px; margin-top:12px; font-size:12px; color:var(--muted);">
+        <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#f08080;display:inline-block;"></span>Manual entry</span>
+        <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#c084fc;display:inline-block;"></span>AI agent entry</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Agentic Project 4 -->
+  <div class="project-card">
+    <div>
+      <span class="project-tag tag-agentic">Agentic AI · EdTech</span>
+      <div class="project-name">AI-Powered WhatsApp Learning Coach</div>
+      <div class="project-desc">
+        Autonomous agentic workflow delivering personalised daily motivation, subject-wise quizzes, and instant answer explanations to Class 10 students via WhatsApp — five scheduled workflows running with zero manual intervention, plus a real-time feedback loop that triggers AI-generated explanations the moment a student replies.
+      </div>
+      <div class="kpi-row">
+        <div class="kpi-item"><div class="kpi-val">&lt;3 sec</div><div class="kpi-lbl">Feedback turnaround (was 24 hrs)</div></div>
+        <div class="kpi-item"><div class="kpi-val">5</div><div class="kpi-lbl">Automated workflows</div></div>
+        <div class="kpi-item"><div class="kpi-val">Weekly</div><div class="kpi-lbl">Parent progress reports</div></div>
+      </div>
+      <div class="tech-chips">
+        <span class="chip">n8n</span><span class="chip">GPT-4o-mini</span><span class="chip">Twilio WhatsApp API</span><span class="chip">Google Sheets</span><span class="chip">Webhooks</span>
+      </div>
+    </div>
+    <div>
+      <div style="background:var(--surface2); border-radius:8px; padding:1.25rem;">
+        <div style="font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:10px;">Five Scheduled Workflows</div>
+        <ul class="tl-points" style="display:flex; flex-direction:column; gap:8px;">
+          <li>Daily personalised motivation message</li>
+          <li>Subject-wise quiz delivery</li>
+          <li>Instant AI-generated answer explanations on reply</li>
+          <li>Score & session-state tracking in Google Sheets</li>
+          <li>Weekly parent progress report, every Sunday</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
 <!-- SKILLS -->
 <section id="skills">
   <div class="section-label">Core Competencies</div>
@@ -523,6 +652,13 @@
       <div class="skill-bar-row"><div class="skill-bar-label"><span>KPI & Value Realization</span><span>92%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="width:92%"></div></div></div>
       <div class="skill-bar-row"><div class="skill-bar-label"><span>Power BI / Analytics</span><span>80%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="width:80%"></div></div></div>
     </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Agentic AI Engineering</div>
+      <div class="skill-bar-row"><div class="skill-bar-label"><span>n8n Workflow Orchestration</span><span>90%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="width:90%"></div></div></div>
+      <div class="skill-bar-row"><div class="skill-bar-label"><span>GPT-4o / LLM Integration</span><span>92%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="width:92%"></div></div></div>
+      <div class="skill-bar-row"><div class="skill-bar-label"><span>Webhook & REST API Automation</span><span>88%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="width:88%"></div></div></div>
+      <div class="skill-bar-row"><div class="skill-bar-label"><span>Multi-Channel Bots (WhatsApp/Email)</span><span>85%</span></div><div class="skill-bar-track"><div class="skill-bar-fill" style="width:85%"></div></div></div>
+    </div>
   </div>
 
   <!-- Tools & Platforms -->
@@ -530,6 +666,11 @@
     <div style="font-size:12px; color:var(--accent); font-weight:600; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:1rem;">Tools & Platforms</div>
     <div style="display:flex; flex-wrap:wrap; gap:10px;">
       <span class="chip" style="border-color:rgba(0,212,170,0.3); color:var(--accent);">OpenAI API</span>
+      <span class="chip" style="border-color:rgba(192,132,252,0.3); color:#c084fc;">n8n</span>
+      <span class="chip" style="border-color:rgba(192,132,252,0.3); color:#c084fc;">GPT-4o / GPT-4o-mini</span>
+      <span class="chip">Twilio WhatsApp API</span>
+      <span class="chip">Google Sheets API</span>
+      <span class="chip">Webhooks</span>
       <span class="chip">JIRA</span><span class="chip">Polarion</span><span class="chip">MS Project</span>
       <span class="chip">ARAS Innovator</span><span class="chip">Oracle Agile PLM</span><span class="chip">Windchill</span>
       <span class="chip">SAP</span><span class="chip">Baan</span>
@@ -694,9 +835,9 @@ new Chart(document.getElementById('c2'), {
 new Chart(document.getElementById('c3'), {
   type: 'doughnut',
   data: {
-    labels: ['AI/LLM Programs', 'Digital Transformation', 'PLM/NPI', 'RPA/Automation', 'Lean/Operations'],
+    labels: ['AI/LLM & Agentic AI', 'Digital Transformation', 'PLM/NPI', 'RPA/Automation', 'Lean/Operations'],
     datasets: [{
-      data: [30, 25, 20, 15, 10],
+      data: [35, 20, 20, 15, 10],
       backgroundColor: ['rgba(0,212,170,0.85)', 'rgba(79,142,247,0.85)', 'rgba(247,201,79,0.85)', 'rgba(240,128,128,0.85)', 'rgba(136,146,176,0.85)'],
       borderColor: '#0a0f2e', borderWidth: 3
     }]
@@ -806,6 +947,62 @@ new Chart(document.getElementById('p4'), {
     scales: {
       x: { grid: { color: 'rgba(255,255,255,0.05)' } },
       y: { grid: { color: 'rgba(255,255,255,0.05)' }, title: { display: true, text: 'Lead Time (indexed)', font: { size: 11 } } }
+    }
+  }
+});
+
+// P5 - ECO/ECN Cycle Time Reduction Gauge
+new Chart(document.getElementById('p5'), {
+  type: 'doughnut',
+  data: {
+    labels: ['Cycle-Time Reduction', 'Remaining'],
+    datasets: [{
+      data: [99.9, 0.1],
+      backgroundColor: ['rgba(79,142,247,0.9)', 'rgba(255,255,255,0.04)'],
+      borderColor: ['rgba(79,142,247,0.2)', 'transparent'], borderWidth: 2
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    circumference: 270, rotation: -135,
+    cutout: '75%',
+    plugins: { legend: { display: false }, tooltip: { enabled: false } }
+  },
+  plugins: [{
+    id: 'center',
+    afterDraw: chart => {
+      const {ctx, chartArea: {left, right, top, bottom}} = chart;
+      const cx = (left+right)/2, cy = (top+bottom)/2+20;
+      ctx.textAlign = 'center';
+      ctx.fillStyle = '#4f8ef7';
+      ctx.font = 'bold 32px Syne, sans-serif';
+      ctx.fillText('99.9%', cx, cy);
+      ctx.fillStyle = '#8892b0';
+      ctx.font = '12px DM Sans, sans-serif';
+      ctx.fillText('Cycle-Time Cut', cx, cy+20);
+    }
+  }]
+});
+
+// P6 - RAID Entry Time Before vs After
+new Chart(document.getElementById('p6'), {
+  type: 'bar',
+  data: {
+    labels: ['RAID Entry Time'],
+    datasets: [
+      { label: 'Manual entry (5 min)', data: [100], backgroundColor: 'rgba(240,128,128,0.8)', barPercentage: 0.4 },
+      { label: 'AI agent entry (<30 sec)', data: [10], backgroundColor: 'rgba(192,132,252,0.8)', barPercentage: 0.4 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => `${ctx.dataset.label} (indexed)` } }
+    },
+    scales: {
+      x: { grid: { color: 'rgba(255,255,255,0.05)' } },
+      y: { grid: { color: 'rgba(255,255,255,0.05)' }, title: { display: true, text: 'Entry Time (indexed)', font: { size: 11 } } }
     }
   }
 });
